@@ -33,10 +33,10 @@ int main()
 
 		// Split command into command and arguments using strtok (a string tokenizer)
 		// found https://www.tutorialspoint.com/c_standard_library/c_function_strtok.htm
-    	char *command_name = strtok(command, " ");
+    		char *command_name = strtok(command, " ");
 		char *args[1024]; 
-    	int num_args = 0;
-    	while (command_name != NULL) {
+    		int num_args = 0;
+    		while (command_name != NULL) {
 
       		args[num_args] = command_name;
       		num_args++;
